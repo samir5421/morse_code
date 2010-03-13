@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:gravity="top|center_vertical">
+    
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dip"
+        />
+    
+    <Button
+        android:id="@+id/button"
+        android:text="@string/vibrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:clickable="true"/>
+
+<ScrollView android:id="@+id/textAreaScroller" 
+    android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:layout_x="0px" 
+        android:layout_y="25px" 
+        > 
+<TextView 
+android:id="@+id/TextViewPost" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content" 
+android:text=" Morse Code Key\n\n A  .- \n B  -... \n C  -.-. \n D  -.. \n E  . \n F  ..-. \n G  --. \n H  .... \n I  .. \n J  .---  \n K  -.- \n L  .-.. \n M  -- \n N  -. \n O  ---  \n P  .--. \n Q  --.- \n R  .-. \n S  ...  \n T  - \n U  ..-  \n V  ...- \n W.-- \n X  -..- \n Y  -.-- \n Z  --.. " 
+android:layout_x="0px" 
+android:layout_y="25px" 
+></TextView> 
+
+</ScrollView> 
+<Button
+android:id="@+id/exit_button"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/exit_label" />
+</LinearLayout>
