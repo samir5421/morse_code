@@ -1,4 +1,4 @@
-package com.webs.samirapplications.morsecode;
+package com.webs.samirapplications.morsecodefroyo;
 
 class MorseCodeConverter {
     private static final long SPEED_BASE = 100;

@@ -1,4 +1,4 @@
-package com.webs.samirapplications.morsecode;
+package com.webs.samirapplications.morsecodefroyo;
 
 
 import android.app.Activity;
